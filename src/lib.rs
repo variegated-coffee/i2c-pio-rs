@@ -63,6 +63,7 @@ use crate::i2c_cmd::stop;
 mod eh0_2;
 mod eh1_0;
 mod i2c_cmd;
+mod embassy;
 
 /// Length of an address.
 #[derive(Debug, PartialEq, Eq)]
